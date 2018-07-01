@@ -1,0 +1,45 @@
+body{
+  width: 100%;
+  background-image: url("BG.jpg");
+  background-size: cover;
+
+}
+a {
+  color: white;
+  margin-left: 70vh;
+
+
+ }
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+
+    opacity: 1;
+
+    animation: mymove 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mymove {
+  from {top: 0vh;}
+    to {top: 50vh;}
+}
+
+#hello{
+  font: 50px Avenir, sans-serif;
+  position: inherit;
+  margin-top: 0vh;
+
+}
